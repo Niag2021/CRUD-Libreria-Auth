@@ -4,7 +4,7 @@ import db from '../database/db.js';
 //Importacion de sequelize
 import { DataTypes } from 'sequelize';
 //Definir la conexion a la BD 
-const userSchema = db.define('trabajadores', {
+const userSchema = db.define('usuarios', {
     username: {
         type: DataTypes.STRING,
         required : true,
